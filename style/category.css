@@ -1,0 +1,78 @@
+.category_title{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 80px;
+font-weight: 500;
+line-height: 90px;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 50px;
+margin-top: 50px;
+margin-bottom: 8px;
+}
+.category_info{
+    padding-left: 50px;
+    padding-right: 25px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.category_info_sorted{
+display: flex;
+align-items: center;
+flex-direction: row;
+
+margin-left: auto;
+}
+.category_info_sorted span{
+    color: rgb(158, 162, 170);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+}
+.sort{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+background: none;
+border: transparent;
+margin-left: 9px;
+}
+.sort:hover{
+    background: none;
+border: transparent;
+}
+.sort:active{
+    background: none;
+border: transparent;
+}
+.sort:focus {
+    background: none;
+border: transparent;
+}
+.category_info_way{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 8px;
+}
+.category_info_way span{
+    opacity: 0.5;
+    margin-bottom: 60px;
+}
+.famus_food_items{
+    margin-bottom: 209px;
+}

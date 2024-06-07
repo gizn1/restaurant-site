@@ -1,0 +1,186 @@
+.product{
+padding-left: 50px;
+margin-top: 40px;
+display: flex;
+}
+.product_info_opati_title{
+    color: rgb(158, 162, 170);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+margin-bottom: 16px;
+}
+.product_info{
+    width: 100%;
+    max-width: 740px;
+}
+.product_info_opatis_item{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 740px;
+    width: 100%;
+    background: #000;
+    padding: 25px;
+}
+.product_picture{
+    margin-left: -50px;
+}
+.product_info_opatis_item_title{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.product_info_opatis_item_title_weihgt{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 3px;
+    padding: 3px 6px;
+    background: rgb(255 255 255 / 30%);
+    
+margin-top: 7px;
+}
+.product_info_opatis_item_form_plasa{
+    border: transparent;
+    background:none;
+    position: relative;
+    left: 10px;
+    height: 22px;
+    background: #000;
+    padding: 0 ;
+}
+.product_info_opatis_item_form_negativ{
+    border: transparent;
+    background:none;    
+    position: relative;
+    right:  12px;
+    height: 22px;
+    background: #000;
+    padding: 0 ;
+}
+.product_info_opatis_item_form_number::-webkit-outer-spin-button,
+.product_info_opatis_item_form_number::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.product_info_opatis_item_form_number{
+    
+border: 1px solid rgb(158, 162, 170);
+color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+    background: none;
+    width: 81px;
+height: 42px;
+}
+
+.product_info_opatis_item_form_number:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.product_info_opatis_item_form_price{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 23px;
+font-weight: 800;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.product_info_opatis_item_form{
+    display: flex;
+    align-items: center;
+}
+.product_info_opatis_item_form_some{
+    margin-right: 85px;
+    
+
+}
+.product_info_opatis_item_form_price{
+    margin-right: 45px;
+
+}
+.famus_food_item_buttonCar_button{
+    border: transparent;
+    background:  none;
+}
+.product_info_opatis_item + .product_info_opatis_item{
+    margin-top: 10px;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product_info_opatis_items{
+    margin-bottom: 44px;
+}
+.product_info_descripten_title{
+    color: rgb(158, 162, 170);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+}
+.product_info_descripten_text{
+    max-width: 602px;
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 11px;
+opacity: 0.8;
+
+}
+.product{
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.same_products_title{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 50px;
+font-weight: 500;
+line-height: 55px;
+letter-spacing: 0%;
+text-align: left;
+max-width: 537px;
+margin-bottom: 28px;
+}
+.famus_food_items{
+    margin-left: 0;
+}
+.Offer_left_about_shop_points{
+    position: absolute;
+    top: -18px;
+}

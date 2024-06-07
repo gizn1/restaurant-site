@@ -1,0 +1,199 @@
+.cart_items{
+    margin-left: 50px;
+}
+.product_info_opatis_item{
+    max-width: 1500px;
+    height: 180px;
+    padding-top: 60px;
+}
+
+.product_info_opatis_item_image{
+    height: 180px;
+    top: -60px;
+    position: relative;
+    left: -25px;
+}
+
+.product_info_opatis_item_image_title{
+    display: flex;
+}
+.product_info_opatis_item_title{
+    margin-left: 30px;
+}
+.product_info_opatis_item_form_price{
+    margin-right: 183px;
+}
+.product_info_opatis_item_form_price_sum{
+    margin-left: 163px;
+    margin-right: 87px;
+}
+.product_info_opatis_item_title_option{
+    /* Из баранины с тархуном */
+    color: rgb(158, 162, 170);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+margin-top: 5px;
+max-width: 360px;
+
+
+}
+.product_info_opatis_item_form{
+    align-items:start;
+}
+.famus_food_item_buttonCar_button{
+    top: -25px;
+    position: relative;
+}
+.cart_items_titles_tile{
+    margin-left: 271px;
+}
+
+.cart_items_titles{
+    display: flex;
+    justify-content: space-between;
+}
+.cart_items_titles_tile{
+    color: rgb(158, 162, 170);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+}
+.cart_items_titles_prices{
+    display: flex;
+    padding-right: 279px;
+    margin-bottom: 19px;
+    color: rgb(158, 162, 170);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+
+}
+.product_info_opatis_item_form_some{
+    margin: 0;
+}
+.cart_items_titles_prices_sum{
+    margin-left: 183px;
+}
+
+.cart_items_titles_prices_some{
+    margin-left: 191px;
+}
+.cart_items{
+    margin-bottom: 44px;
+}
+.category_title_some{
+    color: rgb(251, 209, 62);
+font-family: Montserrat;
+font-size: 50px;
+font-weight: 500;
+line-height: 55px;
+letter-spacing: 0%;
+text-align: left;
+top: -21px;
+position: relative;
+}
+
+.design{
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 147px;
+}
+.design_promocod{
+    display: flex;
+}
+.design_promocod_text{
+display: flex;
+flex-direction:column;
+}
+.design_promocod_text input{
+    width: 234px;
+height: 42px;
+}
+.design_promocod_text span{
+    color: rgb(158, 162, 170);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+margin-bottom: 6px;
+}
+.design_promocod{
+    display: flex;
+    align-items: end;
+    margin-bottom: 24px;
+}
+.design_promocod_submit{
+    box-sizing: border-box;
+/* #FBD13E */
+border: 1px solid rgb(251, 209, 62);
+width: 150px;
+height: 42px;
+margin-left: 19px;
+color: rgb(251, 209, 62);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 10%;
+text-align: center;
+text-transform: uppercase;
+background: none;
+}
+.design_price{
+    display: flex;
+    align-items: center;
+}
+.design_price{
+    color: rgb(158, 162, 170);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+}
+.design_price span{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 23px;
+font-weight: 800;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 8px;
+}
+.design_price{
+    margin-left: 20px;
+}
+.design_form_submit_input{
+    box-shadow: 0px 10px 31px 0px rgba(15, 15, 17, 0.2);
+background: rgb(251, 209, 62);
+color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 10%;
+text-align: center;
+text-transform: uppercase;
+width: 234px;
+height: 42px;
+}
+
