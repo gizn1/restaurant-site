@@ -24,23 +24,30 @@ margin-bottom: 12px;
     color: rgb(158, 162, 170);
 
     
-    font-family: Montserrat;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0%;
-    text-align: left;
+    color: rgb(158, 162, 170);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 }
 
 .category_down_level_active{
     color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
 }
 .category_down_levels svg{
     margin: 0 19px;
 }
 .category_down_main{
     margin-top: 64px;
-    margin-left: 303px;
+   
 }
 .category_down_queshen_acount{
     color: rgb(255, 255, 255);
@@ -83,6 +90,7 @@ max-width: 329px;
     width: 360px;
     display: flex;
     flex-direction: column;
+    margin-left: 250px;
 
 }
 .category_down_form_inp input {
@@ -159,8 +167,10 @@ margin-left: 22px;
 }.cart{
     background: #000;
     margin-top: 60px;
-    width: 613px;
+    max-width: 613px;
     margin-bottom: 114px;
+    width: 100%;
+    margin-right: 50px;
 }
 .cart_item{
 display: flex;
@@ -310,12 +320,15 @@ text-align: left;
     text-align: left;
 max-width: 330px;
 }
-.category_down_main_oppatti_label{
-    margin-right: 30px;
+.category_down_main_oppatti_label + .category_down_main_oppatti_label {
+    margin-left: 30px;
 }
-.category_down_main_oppatti{
+.category_down_level svg{
+    margin: 0;
     position: relative;
-    left: -303px;
+    top: -12px;
+    right: 7px;
+    margin: 0;
 }
 .category_down_form_title{
     color: rgb(158, 162, 170);
@@ -346,3 +359,13 @@ margin-bottom: 19px;
 }
 .category_down_form_inp_two_inp{
     display: flex;}
+
+.category_down_form_inp_two_inp + .category_down_form_inp_two_inp{
+    position: relative;
+    margin-left: 146px;
+}
+.category_down_form_inp_two_inp .category_down_form_inp_tite {
+position: absolute;
+right: 125px;
+top: 12px;
+}
