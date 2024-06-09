@@ -320,7 +320,7 @@ text-align: left;
     text-align: left;
 max-width: 330px;
 }
-.category_down_main_oppatti_label + .category_down_main_oppatti_label {
+.category_down_main_oppatti_label_left {
     margin-left: 30px;
 }
 .category_down_level svg{
@@ -368,4 +368,87 @@ margin-bottom: 19px;
 position: absolute;
 right: 125px;
 top: 12px;
+}
+
+.category_down_main_3_form_input{
+    box-sizing: border-box;
+/* #FBD13E */
+box-sizing: border-box;
+/* #9EA2AA */
+border: 1px dashed rgba(158, 162, 170, 0.4);
+
+height: 100px;
+width: 810px;
+
+padding: 27px;
+}
+.category_down_main_3_form_input_chekpoint{
+    width: 25px;
+height: 25px;
+border: 1px solid rgb(251, 209, 62);
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-right: 24px;
+}
+.category_down_main_3_form_input_chekpoint_point {
+    width: 17px;
+height: 17px;
+
+border-radius: 20px;
+/* #FBD13E */
+background: rgb(251, 209, 62);
+display: none;
+}
+.category_down_main_3_form_inputt:checked + .category_down_main_3_form_input .category_down_main_3_form_input_chekpoint_point{
+    display: block;
+} 
+.category_down_main_3_form_inputt:checked + .category_down_main_3_form_input{
+    border: 1px dashed rgb(251, 209, 62);
+    opacity:1;
+}
+.category_down_main_3_form_inputt{
+    display: none;
+}
+.category_down_main_3_form_input{
+    display: flex;
+    align-items: center;
+}
+.category_down_main_3_form_input_online{
+    height: 130px;
+}
+.category_down_main_3_form_input_title{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.category_down_main_3_form_input_title_online{
+    margin-bottom: 18px;
+}
+.category_down_main_3_form_input_banks img + img{
+    margin-left: 20px;
+}
+.category_down_main_3_form_input{
+    margin-bottom: 18px;
+}
+.category_down_main_3_form_submit{
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 10%;
+text-align: center;
+text-transform: uppercase;
+    box-shadow: 0px 10px 31px 0px rgba(15, 15, 17, 0.2);
+background: rgb(251, 209, 62);
+padding: 10px 24px 12px 24px;
+border: transparent;
+margin-top: 28px;
 }
