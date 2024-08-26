@@ -1,1 +1,1 @@
-# restaurant-site
+# restaurant-site.github.io
