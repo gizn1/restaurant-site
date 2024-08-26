@@ -466,18 +466,22 @@ max-width: 165px;
 }
 .menu_items_item:hover{
     background: rgb(9, 35, 78);
+    transition-duration: 500ms;
 }
 
 .menu_items_item:hover .menu_items_item_text{
     text-decoration: underline;
+     transition-duration: 500ms;
 }
 .menu_items_item:hover .menu_items_item_top img {
     width: 200px;
+     transition-duration: 500ms;
     
 }
 
 .menu_items_item:hover .menu_items_item_down img {
     width: 200px;
+     transition-duration: 500ms;
     
 }
 footer{
