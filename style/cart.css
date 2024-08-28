@@ -196,4 +196,24 @@ text-transform: uppercase;
 width: 234px;
 height: 42px;
 }
+.category_down_form_butons:hover{
+transition-duration: 500ms;
+    background: rgb(251, 209, 62);
+color:#000;
+}
+.category_down_form_butons{ 
 
+    color: rgb(251, 209, 62);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    box-sizing: border-box;
+/* #FBD13E */
+border: 1px solid rgb(251, 209, 62);
+padding: 10px 29px;
+}
