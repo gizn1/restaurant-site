@@ -459,6 +459,7 @@ text-transform: uppercase;
 padding: 10px 24px 12px 24px;
 border: transparent;
 margin-top: 28px;
+    border: 1px solid rgb(251, 209, 62);
 }
 .category_down_main_3_form_submit:hover{
 background: rgb(251, 209, 62);
