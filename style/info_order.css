@@ -129,6 +129,11 @@ height: 42px;
 .category_down_form_inp_tite div{
     opacity: 0.5;
 }
+.category_down_form_butons:hover{
+
+    background: rgb(251, 209, 62);
+color:#000;
+}
 .category_down_form_butons{ 
 
     color: rgb(251, 209, 62);
@@ -146,11 +151,7 @@ border: 1px solid rgb(251, 209, 62);
 padding: 10px 29px;
 },
 
-.category_down_form_butons:hover{
 
-    background: rgb(251, 209, 62);
-color:#0000;
-}
 .category_down_form_buton{
     margin-top: 32px;
     display: flex;
