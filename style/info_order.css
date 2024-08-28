@@ -453,8 +453,15 @@ letter-spacing: 10%;
 text-align: center;
 text-transform: uppercase;
     box-shadow: 0px 10px 31px 0px rgba(15, 15, 17, 0.2);
-background: rgb(251, 209, 62);
+  background: none;
+    border: 1px solid rgb(251, 209, 62);
+      color: rgb(251, 209, 62);
 padding: 10px 24px 12px 24px;
 border: transparent;
 margin-top: 28px;
+}
+.category_down_main_3_form_submit:hover{
+background: rgb(251, 209, 62);
+color: rgb(0, 0, 0);
+
 }
