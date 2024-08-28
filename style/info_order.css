@@ -135,7 +135,7 @@ height: 42px;
     align-items: center;
 }
 .category_down_form_butons:hover{
-
+transition-duration: 500ms;
     background: rgb(251, 209, 62);
 color:#000;
 }
@@ -464,6 +464,7 @@ margin-top: 28px;
     border: 1px solid rgb(251, 209, 62);
 }
 .category_down_main_3_form_submit:hover{
+    transition-duration: 500ms;
 background: rgb(251, 209, 62);
 color: rgb(0, 0, 0);
 
