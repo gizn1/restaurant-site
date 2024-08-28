@@ -129,6 +129,11 @@ height: 42px;
 .category_down_form_inp_tite div{
     opacity: 0.5;
 }
+.category_down_form_buton{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
 .category_down_form_butons:hover{
 
     background: rgb(251, 209, 62);
@@ -152,11 +157,7 @@ padding: 10px 29px;
 },
 
 
-.category_down_form_buton{
-    margin-top: 32px;
-    display: flex;
-    align-items: center;
-}
+
 .category_down_form_buton_disp{
     color: rgb(158, 162, 170);
 font-family: Montserrat;
