@@ -144,6 +144,12 @@ height: 42px;
 /* #FBD13E */
 border: 1px solid rgb(251, 209, 62);
 padding: 10px 29px;
+},
+
+.category_down_form_buton button:hover{
+
+    background: rgb(251, 209, 62);
+color:#0000;
 }
 .category_down_form_buton{
     margin-top: 32px;
